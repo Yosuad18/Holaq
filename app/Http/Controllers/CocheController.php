@@ -118,7 +118,7 @@ class CocheController extends Controller
                     'invalidate' => true,
                 ]
             );
-            $data['foto'] = $upload['secure_url'];
+            $data['foto_url'] = $upload['secure_url'];
         }
 
         $coche->update($data);
